@@ -1,0 +1,12 @@
+{
+  "constructorArgs": ["is-number","7.0.0","LICENSE","35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2"],
+  "calls": [
+    {"method":"sample","args":[0]},
+    {"method":"sample","args":[0],"error":"Stale checkpoint"}
+  ],
+  "views": [
+    {"method":"get_policy","args":[],"expected":{"round":1,"file":"is-number@7.0.0/LICENSE"}},
+    {"method":"get_checkpoint","args":[1],"expected":{"status":"MATCH","digest":"35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2"}},
+    {"method":"get_checkpoint","args":[2],"expected":null}
+  ]
+}

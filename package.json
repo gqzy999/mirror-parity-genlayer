@@ -1,0 +1,8 @@
+{
+  "name": "mirror-parity",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {"verify:live": "node verify.mjs", "deploy": "node verify.mjs --execute"},
+  "dependencies": {"genlayer-js": "2.0.0"}
+}

@@ -1,0 +1,64 @@
+{
+  "chainId": 61999,
+  "sourceSha256": "8a595c86925577186e8de5dd7c375cc98485e38a6009a0ba2bb84b569d505c42",
+  "events": [
+    {
+      "method": "sample",
+      "args": [
+        0
+      ],
+      "hash": "0x4da329be84384c5666b109c9da2621462f1797744b929a3c2c0b962c74bf6d00",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": 1,
+      "destination": "0xF35a2D9fA894A1AfaaB55deCA27701B3b8f77835"
+    },
+    {
+      "method": "sample",
+      "args": [
+        0
+      ],
+      "hash": "0xcca8d3b3ebcd09352e0f8586f25befddae073881457be982da8e25c501fad08c",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "Stale checkpoint",
+      "destination": "0xF35a2D9fA894A1AfaaB55deCA27701B3b8f77835"
+    }
+  ],
+  "deployment": {
+    "hash": "0x7cfc5e815ef0eb8f6c24549eb5d1f5a48849f6d47f44335ff85120c7eae7bc49",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": null,
+    "destination": "0xF35a2D9fA894A1AfaaB55deCA27701B3b8f77835"
+  },
+  "address": "0xF35a2D9fA894A1AfaaB55deCA27701B3b8f77835",
+  "readbacks": [
+    {
+      "method": "get_policy",
+      "args": [],
+      "state": {
+        "file": "is-number@7.0.0/LICENSE",
+        "expected": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+        "round": 1
+      }
+    },
+    {
+      "method": "get_checkpoint",
+      "args": [
+        1
+      ],
+      "state": {
+        "digest": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+        "status": "MATCH"
+      }
+    },
+    {
+      "method": "get_checkpoint",
+      "args": [
+        2
+      ],
+      "state": null
+    }
+  ]
+}

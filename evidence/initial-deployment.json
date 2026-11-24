@@ -1,0 +1,39 @@
+{
+  "chainId": 61999,
+  "sourceSha256": "406b52c64393c74cf69005de3602a534140fb6eb3584856fc1de2e920310e8ec",
+  "events": [
+    {
+      "method": "sample",
+      "args": [
+        0
+      ],
+      "hash": "0xdc9fa9b1c021018f2599518cfb823c6743de2467585bd85b30814264a5e8bbc8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": 1,
+      "destination": "0x4B7cad7816b99012C228A5c63f4472f0D00e597d"
+    },
+    {
+      "method": "sample",
+      "args": [
+        0
+      ],
+      "hash": "0xf52261be6863716b04595db1510af839204b350b89ce5da11c8069332d4dde52",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "Stale checkpoint"
+    }
+  ],
+  "deployment": {
+    "hash": "0xec3158bcf9d88d45e0ba2244f3aeeab80d3dd236c124aa63c6fdf88ae787f73a",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": null,
+    "destination": "0x4B7cad7816b99012C228A5c63f4472f0D00e597d"
+  },
+  "address": "0x4B7cad7816b99012C228A5c63f4472f0D00e597d",
+  "observedCheckpoint": {
+    "number": 1,
+    "status": "INCONCLUSIVE"
+  }
+}
